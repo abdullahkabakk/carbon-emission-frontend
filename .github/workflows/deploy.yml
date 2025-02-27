@@ -24,8 +24,3 @@ jobs:
 
       - name: Build Vue app
         run: npm run build-only
-
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: dist
